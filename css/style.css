@@ -1,0 +1,241 @@
+/*Autho Info
+
+Name:Tasnimul Hasan Rifat;
+email:tasnmhasan@gmail.com;
+
+/*
+
+======Index=====
+1.Global CSS
+2.Header
+3.Hero/fusce 
+4.Our news
+5.Newsletter
+6.Lorem Ipsum
+7.Food item
+8.Footer
+
+================
+
+/* Global CSS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+
+section{
+	padding: 50px 0px;
+
+}
+
+.img-center{
+	display: block;
+	margin-bottom: 0 auto;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+}
+
+/* Header Section*/
+
+.bg-dark {
+    background-color: #edeff1!important;
+    padding: 15px 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #31353e;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav 
+.nav-link.show, .navbar-dark 
+.navbar-nav .show>.nav-link {
+    color: #fff;
+    background: #dd4b2e;
+    border-radius: 22px;
+    padding: 5px 16px;
+}
+
+li.nav-item {
+	margin: 0px 10px;
+
+}
+
+img {
+    margin-left: 30px;
+}
+
+#Fusceat{
+	background: url(../img/8.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: #fff;
+}
+
+#bd{
+	padding-top: 40px;
+}
+
+#bd img{
+	width: 100px;
+	padding-bottom: 17px;
+	margin-right: 17px;
+
+}
+
+.lead{
+	font-size: 14px;
+    padding-bottom: 12px;
+}
+
+
+.btn{
+	background: #dd4b2b;
+ 	color:#fff;
+ 	padding: 5px 50px;
+ 	margin: 5px auto;
+ 	border-radius: 25px;
+ 	-webkit-transition: 0.5s ease;
+ 	-moz-transition: 0.5s ease;
+ 	-o-transition: 0.5s ease;
+
+
+}
+
+.btn:hover{
+	color: #004085;
+ 	background:#fff;
+}
+
+
+#Facilisis{
+	background: #edeff1;
+	text-align: center;
+
+}
+
+#cp img{
+	padding-bottom: 25px;
+	padding-top: 40px;
+	width: 98%;
+
+}
+
+.lorem{
+	font-size: 13px;
+	text-align: justify;
+}
+
+#Antedonec{
+	background: url(../img/7.png) no-repeat;	
+	background-size: cover;
+	color: #fff;
+}
+
+.col-md-6.offset-md-3 {
+    text-align: center;
+}
+
+.leo{
+	font-size: 13px;
+}
+
+input.form-control {
+    background: transparent;
+    border-radius: 16px;
+    border: 1px solid #fff;
+}
+
+input.sign-btn {
+    background: #fff;
+    color: red;
+    padding: 5px 28px;
+    border-radius: 19px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 101px;
+    right: 14px;
+    transition: 0.8s ease;
+}
+
+.sign-btn:hover{
+	color: #fff;
+	background: darkred;
+}
+
+input::placeholder{
+	color: #fff!important;
+}
+
+#Blandit-rhoncus {
+    padding: 50px 0px;
+}
+
+input.for-control {
+    padding: 80px 115px;
+    margin-bottom: 30px;
+}
+
+.nam{
+	font-size: 15px;
+
+}
+
+
+
+#Placerat{
+	background: #d75d0e;
+}
+
+li {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dcc{
+	background: url(../img/7.png) no-repeat;
+	background-size: cover;
+}
+
+.text-white{
+	padding: 40px 280px 140px 280px;
+	font-size: 13px;
+	text-align: center;
+	
+}
+
+@media(min-width: 0px) and(max-width: 500px){
+ 	    .sign-bt{
+ 	    top: 135px;
+    	right: 88px;}
+ 
+ }
+
+ @media(min-width: 501px) and(max-width: 767px){
+ 
+ }
+
+ @media(min-width: 768px) and(max-width: 1199px){
+ 
+ }
+
+ @media(min-width: 1200px){
+ 
+ }
